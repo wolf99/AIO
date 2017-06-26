@@ -56,20 +56,20 @@ typedef enum
 //!
 typedef enum
 {
-	AIO_Rsvd_0=0,       //!< This AIO not present
-	AIO_Rsvd_1,         //!< This AIO not present
+    AIO_Rsvd_0=0,       //!< This AIO not present
+    AIO_Rsvd_1,         //!< This AIO not present
     AIO_Number_2,       //!< Denotes AIO number 2
-	AIO_Rsvd_3,         //!< This AIO not present
+    AIO_Rsvd_3,         //!< This AIO not present
     AIO_Number_4,       //!< Denotes AIO number 4
-	AIO_Rsvd_5,         //!< This AIO not present
+    AIO_Rsvd_5,         //!< This AIO not present
     AIO_Number_6,       //!< Denotes AIO number 6
-	AIO_Rsvd_7,         //!< This AIO not present
+    AIO_Rsvd_7,         //!< This AIO not present
     AIO_Number_8,       //!< Denotes AIO number 8
-	AIO_Rsvd_9,         //!< This AIO not present
+    AIO_Rsvd_9,         //!< This AIO not present
     AIO_Number_10,      //!< Denotes AIO number 10
-	AIO_Rsvd_11,        //!< This AIO not present
+    AIO_Rsvd_11,        //!< This AIO not present
     AIO_Number_12,      //!< Denotes AIO number 12
-	AIO_Rsvd_13,        //!< This AIO not present
+    AIO_Rsvd_13,        //!< This AIO not present
     AIO_Number_14,      //!< Denotes AIO number 14
     AIO_Rsvd_15,         //!< This AIO not present
     AIO_numAios
@@ -99,7 +99,7 @@ uint16_t AIO_getPortData(GPIO_Handle gpioHandle);
 //! \brief     Sets the analog I/O (AIO) signal direction
 //! \param[in] gpioHandle  The general purpose I/O (GPIO) object handle
 //! \param[in] aioNumber   The AIO number
-//! \param[in] direction   The signal direction 
+//! \param[in] direction   The signal direction
 void AIO_setDirection(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber,const GPIO_Direction_e direction);
 
 
