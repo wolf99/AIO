@@ -119,19 +119,19 @@ void AIO_setMode(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber,const AIO_M
 //! \brief     Sets the specified analog I/O (AIO) signal high
 //! \param[in] gpioHandle  The general purpose I/O (GPIO) object handle
 //! \param[in] aioNumber   The AIO number
-// void AIO_setHigh(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber);
+void AIO_setHigh(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber);
 
 
 //! \brief     Sets data output on the AIO port
 //! \param[in] gpioHandle   The general purpose I/O (GPIO) object handle
 //! \param[in] data         The data to write to the port
-// void AIO_setPortData(GPIO_Handle gpioHandle, const uint16_t data);
+void AIO_setPortData(GPIO_Handle gpioHandle, const uint16_t data);
 
 
 //! \brief     Toggles the specified analog I/O (AIO) signal
 //! \param[in] gpioHandle  The general purpose I/O (GPIO) object handle
 //! \param[in] aioNumber   The AIO number
-// void AIO_toggle(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber);
+void AIO_toggle(GPIO_Handle gpioHandle,const AIO_Number_e aioNumber);
 
 
 #ifdef __cplusplus
